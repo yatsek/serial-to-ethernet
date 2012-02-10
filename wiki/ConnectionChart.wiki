@@ -1,0 +1,15 @@
+#summary One-sentence summary of this page.
+
+||*Arduino pin number* || *Connect to...* ||
+||10||EtherShield SPI SS||
+||11||EtherShield SPI MOSI||
+||12||EtherShield SPI MISO||
+||13 ||EtherShield SPI SCK||
+||0||Remote serial port RX||
+||1||Remote serial port TX ||
+||2||Blue led||
+||3||Green led ||
+||4||Red led||
+||5||Yellow led||
+
+Do not forget to connect ground wires also.
