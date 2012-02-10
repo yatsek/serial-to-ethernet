@@ -1,14 +1,12 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
-
-Add your content here.
+= HARDWARE =
 
 http://serial-to-ethernet.googlecode.com/svn/wiki/enc28j60.png
 
-= Details =
+You can buy it [http://www.geeetech.com/arduino-enc28j60-ethernet-module-p-263.html here].
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+
+= SOFTWARE =
+
+Arduino EtherShield library can be found [http://ethershield.thiseldo.co.uk/index.html here].
