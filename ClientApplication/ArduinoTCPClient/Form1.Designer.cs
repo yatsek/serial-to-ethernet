@@ -42,13 +42,13 @@
             this.bSave = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonRawSend = new System.Windows.Forms.Button();
             this.buttonSend = new System.Windows.Forms.Button();
             this.textBoxSend = new System.Windows.Forms.TextBox();
             this.cbBaud = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cbAutoscroll = new System.Windows.Forms.CheckBox();
-            this.buttonRawSend = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -73,7 +73,7 @@
             this.tbInfo.Multiline = true;
             this.tbInfo.Name = "tbInfo";
             this.tbInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tbInfo.Size = new System.Drawing.Size(538, 193);
+            this.tbInfo.Size = new System.Drawing.Size(538, 164);
             this.tbInfo.TabIndex = 1;
             // 
             // timer1
@@ -107,10 +107,10 @@
             this.ColumnHeader});
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.listView1.Location = new System.Drawing.Point(0, 199);
+            this.listView1.Location = new System.Drawing.Point(0, 170);
             this.listView1.Name = "listView1";
             this.listView1.ShowGroups = false;
-            this.listView1.Size = new System.Drawing.Size(891, 400);
+            this.listView1.Size = new System.Drawing.Size(891, 429);
             this.listView1.TabIndex = 5;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -175,7 +175,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(891, 199);
+            this.panel1.Size = new System.Drawing.Size(891, 170);
             this.panel1.TabIndex = 11;
             // 
             // groupBox1
@@ -192,6 +192,16 @@
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Remote";
+            // 
+            // buttonRawSend
+            // 
+            this.buttonRawSend.Location = new System.Drawing.Point(248, 18);
+            this.buttonRawSend.Name = "buttonRawSend";
+            this.buttonRawSend.Size = new System.Drawing.Size(81, 21);
+            this.buttonRawSend.TabIndex = 6;
+            this.buttonRawSend.Text = "Raw Send";
+            this.buttonRawSend.UseVisualStyleBackColor = true;
+            this.buttonRawSend.Click += new System.EventHandler(this.buttonRawSend_Click);
             // 
             // buttonSend
             // 
@@ -268,16 +278,6 @@
             this.cbAutoscroll.Text = "Autoscroll";
             this.cbAutoscroll.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cbAutoscroll.UseVisualStyleBackColor = true;
-            // 
-            // buttonRawSend
-            // 
-            this.buttonRawSend.Location = new System.Drawing.Point(248, 18);
-            this.buttonRawSend.Name = "buttonRawSend";
-            this.buttonRawSend.Size = new System.Drawing.Size(81, 21);
-            this.buttonRawSend.TabIndex = 6;
-            this.buttonRawSend.Text = "Raw Send";
-            this.buttonRawSend.UseVisualStyleBackColor = true;
-            this.buttonRawSend.Click += new System.EventHandler(this.buttonRawSend_Click);
             // 
             // Form1
             // 
