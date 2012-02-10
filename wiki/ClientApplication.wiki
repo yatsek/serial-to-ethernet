@@ -3,7 +3,7 @@ http://serial-to-ethernet.googlecode.com/svn/wiki/ss1.png
 
 = Details =
 
-||1||Start to send requests to Arduino board||
+||1||Start sending requests to Arduino board||
 ||2||Stop sending requests to Ardino board||
 ||3||Clear the log (15)||
 ||4||Save the log (15)||
