@@ -1,5 +1,4 @@
 
-
 || *Arduino pin number* || *Connect to...* || *Notes* ||
 ||10||EtherShield SPI SS|| ||
 ||11||EtherShield SPI MOSI|| ||
@@ -8,7 +7,7 @@
 ||0||Remote serial port RX|| ||
 ||1||Remote serial port TX || ||
 ||2||Blue led||Network activity||
-||3||Green led||Port open||
+||3||Green led||Port status||
 ||4||Red led||Output buffer overflow||
 ||5||Yellow led||Got something to output||
 
