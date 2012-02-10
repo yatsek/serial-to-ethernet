@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+
 
 || *Arduino pin number* || *Connect to...* || *Notes* ||
 ||10||EtherShield SPI SS|| ||
