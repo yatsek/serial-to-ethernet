@@ -2,8 +2,3 @@ http://serial-to-ethernet.googlecode.com/svn/wiki/ss1.png
 
 
 = Details =
-
-
- 1
- 2
- 3
