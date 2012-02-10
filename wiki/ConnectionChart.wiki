@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
-||*Arduino pin number* || *Connect to...* ||
+|| *Arduino pin number* || *Connect to...* ||
 ||10||EtherShield SPI SS||
 ||11||EtherShield SPI MOSI||
 ||12||EtherShield SPI MISO||
