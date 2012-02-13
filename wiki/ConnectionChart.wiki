@@ -1,4 +1,3 @@
-
 || *Arduino pin number* || *Connect to...* || *Notes* ||
 ||10||EtherShield SPI SS|| ||
 ||11||EtherShield SPI MOSI|| ||
@@ -11,4 +10,4 @@
 ||4||Red led||Output buffer overflow||
 ||5||Yellow led||Got something to output||
 
-Do not forget to connect ground wires also.
+Do not forget to connect power and ground wires also.
