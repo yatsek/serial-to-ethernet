@@ -11,3 +11,5 @@
 ||5||Yellow led||Got something to output||
 
 Do not forget to connect power and ground wires also.
+You can take 3.3v to power EtherShield board from Arduino with the risk of burn out ft232 chip. The better way is use voltage regulator such as lm1117-3.3.
+EtherShield board data pins tolerated to Arduino 5v signal levels. 
